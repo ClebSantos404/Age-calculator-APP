@@ -57,6 +57,7 @@ body {
   border-radius: 3rem;
   padding: 1rem;
   position: absolute;
+  cursor: pointer;
 }
 
 .img img {
@@ -86,7 +87,6 @@ body {
 .monthResult,
 .daysResult {
   display: flex;
-  border: 1px solid red;
 }
 
 .yearResult p,
