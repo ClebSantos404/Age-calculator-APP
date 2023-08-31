@@ -118,6 +118,26 @@ h3 {
 }
 
 /* Media queres */
+@media (max-width: 319px) {
+  .container {
+    margin: 5rem auto;
+  }
+  
+  .numbers input {
+    max-width: 3.5rem;
+    width: 100%;
+    height: 60px;
+    font-size: 1rem;
+  }
+
+  .purple,
+  .yearResult p,
+  .monthResult p,
+  .daysResult p {
+    font-size: 2.3rem;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
     margin: 40px auto;
