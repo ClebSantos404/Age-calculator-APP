@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 86%);
+}
+
+.container {
+  margin: 50px 20px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 20px;
+  width: 90%;
+}
+
+.numbers {
+  display: flex;
+  margin: 50px 0;
+}
+
+.numbers #day,
+.numbers #month,
+.numbers #year {
+  margin: 0 10px;
+  color: grey;
+  letter-spacing: .3rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
+
+.numbers input {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.6rem;
+  padding-left: .7rem;
+  font-weight: bold;
+  appearance: textfield;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  margin-top: 4rem;
+}
+
+.img {
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 3rem;
+  padding: 1rem;
+  position: absolute;
+}
+
+.img img {
+  font-weight: bold;
+  width: 2rem;
+  height: 1.7rem;
+}
+
+.purple {
+  color: hsl(259, 100%, 65%);
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: 'Poppins';
+  transform: rotateX(1deg);
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.yearResult,
+.monthResult,
+.daysResult {
+  display: flex;
+  border: 1px solid red;
+}
+
+.yearResult p,
+.monthResult p,
+.daysResult p {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: .9rem;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
