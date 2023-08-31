@@ -19,6 +19,8 @@ body {
 
 h3 {
   margin-bottom: 10px;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
 }
 
 .numbers {
@@ -32,10 +34,8 @@ h3 {
 .numbers #month,
 .numbers #year {
   margin: 0 10px;
-  color: grey;
-  letter-spacing: .3rem;
+  color: #808080;
   font-size: .7rem;
-  text-transform: uppercase;
 }
 
 .numbers input {
